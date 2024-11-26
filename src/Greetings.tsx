@@ -136,7 +136,7 @@ const Greetings: React.FC<Person> = (props: Person) => {
               </svg>
           </a>
         </div>
-        <div className="container d-flex gap-3 justify-content-start">
+        <div className="container d-flex gap-3 justify-content-start px-0">
           <button
             className="btn btn-dark"
             style={{ width: "35px" }}

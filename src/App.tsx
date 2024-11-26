@@ -17,7 +17,7 @@ function App() {
     <>
       <Header></Header>
       <div className='container border rounded mt-4 d-flex gap 2' style={{width:"75%", boxShadow:"5px 5px 5px #c7c9d1", backgroundColor:"white"}}>
-        <Card></Card>
+        <Card name='Yudis Aqsha' position='Fullstack Developer'></Card>
         <Greetings name='Yudis Aqsha' education='Computer Science'></Greetings>
       </div>
       

@@ -1,6 +1,10 @@
 import index from "./assets/index.jpg";
 
-function Card() {
+type Person = {
+    name: string;
+    position: string;
+  };
+const Card: React.FC<Person> = (props: Person) => {
   return (
     <div
       className="container my-4 mx-4 px-0 rounded "
@@ -26,7 +30,7 @@ function Card() {
             fontStyle: "normal",
           }}
         >
-          Yudis Aqsha
+          {props.name}
         </h3>
         <p
           style={{
@@ -35,7 +39,7 @@ function Card() {
             fontStyle: "normal",
           }}
         >
-          Fullstack Developer
+          {props.position}
         </p>
       </div>
     </div>
